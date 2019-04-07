@@ -5,7 +5,7 @@ import OfficeForm from './formOffice';
 import CompanyForm from './formCompany';
 import CompanyList from './CompanyList';
 
-const { Header, Content, Footer } = Layout;
+const { Content, Footer } = Layout;
 
 
 class AllComponent extends Component {
@@ -14,8 +14,6 @@ class AllComponent extends Component {
       <div >
         
       <Layout className="container">
-        <Header className="header">
-        </Header>
         <Content className="content"> 
             <Row gutter={12}  >
               <Col span={12}
