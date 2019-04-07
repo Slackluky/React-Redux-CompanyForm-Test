@@ -56,7 +56,7 @@ const Option = Select.Option;
           >
                   <Form.Item style={{ display: 'inline-block', width: 'calc(50% - 12px)' }}>
                   {getFieldDecorator('log', {
-                          rules: [{ required: true, message: 'Please input office name!'}],
+                          rules: [{ required: true, message: 'Please input Longtitude!'}],
                            })(
                           <InputNumber 
                           type="number" style={{ width: '100%' }} placeholder="Logtitude" min={-180} max={180} step={0.1}  />
@@ -67,7 +67,7 @@ const Option = Select.Option;
                         </span>
                   <Form.Item style={{ display: 'inline-block', width: 'calc(50% - 12px)' }}>
                         {getFieldDecorator('lat', {
-                        rules: [{ required: true, message: 'Please input office name!' }],
+                        rules: [{ required: true, message: 'Please input Latitude!' }],
                           })(
                         <InputNumber type="number" style={{ width: '100%' }} placeholder="Latitude"  min={-90} max={90} step={0.1} />
                         )}
@@ -75,7 +75,7 @@ const Option = Select.Option;
           </Form.Item>
           <Form.Item label="Office Start Date">
                   {getFieldDecorator('startdate', {
-                    rules: [{ type: 'object', required: true, message: 'Please input office name!', whitespace: true }],
+                    rules: [{ type: 'object', required: true, message: 'Please input start date', whitespace: true }],
                   })(
                     <DatePicker placeholder="Office Start Date" />
                   )}
