@@ -41,8 +41,9 @@ const InputGroup = Input.Group;
                           company});
                         console.log(company)
                         this.props.form.resetFields()
-                        });    
                         message.success('a new company is created successfuly');
+                        });    
+                        
                 }
 
     render() {
