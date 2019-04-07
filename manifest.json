@@ -1,0 +1,15 @@
+{
+  "short_name": "React App by Luky",
+  "name": "COMPANY INFORMATION MANAGEMENT FORM",
+  "icons": [
+    {
+      "src": "favicon.png",
+      "sizes": "128x128 64x64 32x32",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "./index.html",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
