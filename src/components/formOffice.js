@@ -1,4 +1,4 @@
-import {Form, DatePicker, Button, Input, Select, InputNumber} from 'antd';
+import {Form, DatePicker, Button, Input, Select, InputNumber, message} from 'antd';
 import React, { Component } from 'react';
 import { connect } from "react-redux";
 const Option = Select.Option; 
@@ -35,7 +35,7 @@ const Option = Select.Option;
               console.log(offici, id)
               this.props.form.resetFields()
               });
-              
+              message.success('a new office is created successfuly');
       }
 
     render() {

@@ -41,7 +41,8 @@ class AllComponent extends Component {
               </Col>
             </Row>
         </Content>
-        <Footer>
+        <Footer style={{textAlign: 'center'}}>
+          <span > created by Luky Setiawan, UI framework By Ant Design, state management by Redux </span>
         </Footer>
       </Layout>
       </div>

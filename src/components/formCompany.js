@@ -1,4 +1,4 @@
-import {Form, Button, Input,InputNumber, Select} from 'antd';
+import {Form, Button, Input,InputNumber, Select, message} from 'antd';
 import React, { Component } from 'react';
 import { connect } from "react-redux";
 
@@ -42,6 +42,7 @@ const InputGroup = Input.Group;
                         console.log(company)
                         this.props.form.resetFields()
                         });    
+                        message.success('a new company is created successfuly');
                 }
 
     render() {
