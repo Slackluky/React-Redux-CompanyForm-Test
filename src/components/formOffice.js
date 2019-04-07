@@ -34,8 +34,9 @@ const Option = Select.Option;
                 id,offici});
               console.log(offici, id)
               this.props.form.resetFields()
-              });
               message.success('a new office is created successfuly');
+              });
+              
       }
 
     render() {
