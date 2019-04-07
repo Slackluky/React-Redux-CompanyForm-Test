@@ -1,0 +1,81 @@
+
+.form-button{
+    width: 100%;
+}
+.form-button-loc{
+    width: 50%;
+}
+.card{
+    margin: 10px;
+    min-height: 100px;
+    min-width: 300px;
+    justify-content: center;
+}
+.cardC{
+    min-height: 220px;
+    min-width: 120px;
+    margin: 5px;
+}
+.container{
+    width: 100%;
+}
+.ant-input-number-handler-wrap{
+    display: none;
+}
+.flag{
+    width:20px ;
+    height:24px ;
+}
+
+.buttonBack{
+    width: 80%;
+    top: 120px;
+    float: right;
+}
+
+.header{
+    width: 100%;
+    background-color: #069469;
+    margin-bottom: 30px;
+}
+.content{
+    margin-left: 20% ;
+    margin-right: 20% ;
+    align-items: center;
+    justify-content: center;
+    min-height: 768px;
+}
+.content1{
+    margin-left: 20% ;
+    margin-right: 20% ;
+    align-items: center;
+    justify-content: center;
+    min-height: 700px;
+    padding: 30px;
+}
+
+@media (max-width: 600px) {
+    .cardC{
+        margin: 0px;
+    }
+    .content{
+        margin-left: 0% ;
+        margin-right: 0% ;
+    }
+    .content1{
+        margin-left: 0% ;
+        margin-right: 0% ;
+    }
+
+    .buttonBack{
+        width: 70%;
+        float: right;
+        position: inherit;
+        margin-top: 20px;
+    }
+
+    .card{
+        padding: 0px;
+    }
+
+    }
